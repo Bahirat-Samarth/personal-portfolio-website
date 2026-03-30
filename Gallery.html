@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>IPL Gallery</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0a1f44;
+color:white;
+text-align:center;
+}
+
+header{
+background:#002a7f;
+padding:20px;
+font-size:30px;
+font-weight:bold;
+}
+
+nav{
+background:#021c4d;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#021c4d;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+IPL Gallery
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="players.html">Players</a>
+<a href="matches.html">Matches</a>
+<a href="points.html">Points</a>
+
+</nav>
+
+<div class="gallery">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/IPL_Trophy.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Wankhede_Stadium.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mumbai_Indians_team.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/IPL_match.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Rohit_Sharma_2019.jpg">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Jasprit_Bumrah.jpg">
+
+</div>
+
+<footer>
+
+<p>IPL Fan Website | Created by Samarth</p>
+
+</footer>
+
+</body>
+
+</html>
